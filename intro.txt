@@ -1,0 +1,10 @@
+A machine learning model was trained on a dataset of iOS apps with data collected 
+from App Store listings. A portion of the apps had been involved in data breaches,
+while the rest were not. The model learned patterns in the data that distinguish
+the two classes, and will produce a prediction on whether or not any given app 
+will be involved in a data breach from data it collects from its App Store URL.
+
+It should be noted, the accuracy of the model with data it was not trained on
+is such that it will correctly predict a breached app about 68% of the time. So it
+is statistically significant, if not highly accurate. That being said, please give
+the model a try and enter an app's App Store URL below.
